@@ -29,3 +29,33 @@ Plus besoin de chercher frénétiquement dans des dizaines de fichiers comme un 
 ## 🚀 Pourquoi l’adopter ?
 
 Avec **vuei18n-path**, vous allez gagner du temps et simplifier la gestion des traductions dans Vue.js, tout en restant serein dans votre développement. 🔥
+
+## 🛠 Installation :
+
+Pour installer **vuei18n-path**, suivez ces étapes simples :
+
+1. Clonez le dépôt GitHub :
+
+```bash
+git clone https://github.com/podroks/vuei18n-path.git
+```
+
+2. Accédez au dossier du projet :
+
+```bash
+cd vuei18n-path
+```
+
+3. Installez les dépendances :
+
+```bash
+npm install
+```
+
+4. Lancez la commande de build et d'installation :
+
+```bash
+npm run build:install
+```
+
+Et voilà ! Votre extension est prête à être utilisée. 🎉
