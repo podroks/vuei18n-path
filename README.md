@@ -1,5 +1,7 @@
 # vuei18n-path 🌍🔑
 
+> **Note :** Les vidéos fonctionnent seulement dans VSCode.
+
 **vuei18n-path** est une extension VSCode pour les développeur en Vue.js, conçue pour gérer vos traductions i18n avec un soupçon de magie ! 🦸‍♂️🦸‍♀️
 
 ## ✨ Extractor :
