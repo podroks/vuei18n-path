@@ -1,0 +1,73 @@
+{
+  "name": "vuei18n-path",
+  "displayName": "vuei18n-path",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onLanguage:json"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vuei18n-path.extract",
+        "title": "VueI18n Path : Extract"
+      },
+      {
+        "command": "vuei18n-path.find",
+        "title": "VueI18n Path : Finder"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "vuei18n-path.extract",
+          "when": "vuei18n-path.isI18nJson",
+          "group": "5_cutcopypaste"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "vuei18n-path.extract",
+          "when": "false"
+        },
+        {
+          "command": "vuei18n-path.find",
+          "when": "vuei18n-path.hasI18nFolder"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test",
+    "build": "vsce package -o vuei18n-path.vsix",
+    "build:install": "vsce package -o vuei18n-path.vsix && code --install-extension vuei18n-path.vsix"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/sinon": "^17.0.4",
+    "@types/vscode": "^1.99.0",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "sinon": "^20.0.0"
+  }
+}
