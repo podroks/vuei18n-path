@@ -9,7 +9,12 @@ En gros, il va vous permettre de plonger dans vos fichiers et d'en ressortir les
 
 **🎥 Vidéo Démo :**
 
-![Demo de l'Extractor](https://github.com/podroks/vuei18n-path/raw/master/assets/extractor-video.mp4)
+<video width="100%" autoplay loop muted >
+  <source src="https://github.com/podroks/vuei18n-path/raw/master/assets/extractor.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la balise vidéo.
+</video>
+
+![Demo de l'Extractor](https://github.com/podroks/vuei18n-path/raw/master/assets/extractor.mp4)
 
 ## 🔍 Finder :
 
@@ -18,7 +23,12 @@ Plus besoin de chercher frénétiquement dans des dizaines de fichiers comme un 
 
 **🎥 Vidéo Démo :**
 
-![Demo du Finder](https://github.com/podroks/vuei18n-path/raw/master/assets/finder-video.mp4)
+<video width="100%" autoplay loop muted >
+  <source src="https://github.com/podroks/vuei18n-path/raw/master/assets/finder.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la balise vidéo.
+</video>
+
+![Demo du Finder](https://github.com/podroks/vuei18n-path/raw/master/assets/finder.mp4)
 
 ## 🚀 Pourquoi l’adopter ?
 
