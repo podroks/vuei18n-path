@@ -9,6 +9,8 @@ En gros, il va vous permettre de plonger dans vos fichiers et d'en ressortir les
 
 **🎥 Vidéo Démo :**
 
+https://github.com/podroks/vuei18n-path/raw/master/assets/extractor.mp4
+
 <video width="100%" autoplay loop muted >
   <source src="https://github.com/podroks/vuei18n-path/raw/master/assets/extractor.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la balise vidéo.
