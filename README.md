@@ -54,7 +54,13 @@ cd vuei18n-path
 npm install
 ```
 
-4. Lancez la commande de build et d'installation :
+4. Installez vsce en global si vous ne l'avez pas déjà :
+
+```bash
+npm install --global vsce
+```
+
+5. Lancez la commande de build et d'installation :
 
 ```bash
 npm run build:install
