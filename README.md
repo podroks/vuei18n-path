@@ -59,12 +59,16 @@ Pour installer **vuei18n-path**, suivez ces étapes simples :
    - **6.1 VS Code :**
 
      ```bash
+     npm run install:code
+     # ou
      code --install-extension vuei18n-path.vsix
      ```
 
    - **6.2 Windsurf :**
 
      ```bash
+     npm run install:windsurf
+     # ou
      windsurf --install-extension vuei18n-path.vsix
      ```
 
